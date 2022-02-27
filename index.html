@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Shizuru:regular" rel="stylesheet" />
+	 <link rel="stylesheet" href="css/null.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 5 - Курс Зима 2022</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<h2>Как-то так)</h2>
+			<a class="link" target="_blank" href="figma.html"> Домашка по фигме</a>
+			<div>
+				<h1 class="articles">
+					Статья 
+				</h1>
+				<h2>
+				Домашнее Задание к пятому уроку
+			</h2>
+			<h2>Цель: Усвоить материал по теме "Отступы" теги- padding,margin,width,height, <br> overflow и чуточку display</h2>
+			<ul>
+				<li class="list"><a href="#section">Отступы</a><ul>
+					<li class="list2">Внутрение отступы тега padding <ul>
+						<li class="list3">Универсальный параметр тега padding</li>
+						<li class="list3">Вариант 2- padding: сверху,справа,снизу,слева</li>
+						<li class="list3">Одинаковые значения сверху/снизу, слева/справа</li>
+						<li class="list3">И еще один вариант сверху,снизу,слева/справа</li>
+						<li class="list3">Все значения равны сверху/снизу слева/справа</li>
+						<li class="list3">Указание в % </li>
+					</ul></li>
+			<li class="list">Внешние отступы тега margin <ul>
+				<li class="list3">Универсальный параметр тега margin</li>
+						<li class="list3">Вариант 2- margin: сверху,справа,снизу,слева</li>
+						<li class="list3">Одинаковые значения сверху/снизу, слева/справа</li>
+						<li class="list3">И еще один вариант сверху,снизу,слева/справа</li>
+						<li class="list3">Все значения равны сверху/снизу слева/справа</li>
+						<li class="list3">Указание в % </li>
+						<li class="list3">Отрицательное значение</li>
+			</ul></li>
+		</ul>
+		</li>
+		<li class="list"><a href="#section1">Ширины и Высоты</a><ul>
+			<li class="list2">Ширина <ul>
+				<li class="list3">Конкретная ширина</li>
+				<li class="list3">Не шире чем</li>
+				<li class="list3">Не уже чем</li>
+				<li class="list3">Проценты от ширины родителя</li>
+			</ul></li>
+			<li class="list2">Высота <ul>
+				<li class="list3">Конкретная высота</li>
+				<li class="list3">Не больше по высоте чем</li>
+				<li class="list3">Не меньше по высоте чем</li>
+			</ul></li>
+		</ul></li>
+		<li class="list"><a href="#section2">Нюансы</a><ul>
+			<li class="list2">
+				Использование margin для выравнивания
+			</li>
+			<li class="list2">
+				Прибитие обьекта к правой стороне
+			</li>
+			<li class="list2">
+				Схлопывание (наложение) margin
+			</li>
+		</ul></li>
+		<li class="list"><a href="#section3">Управление переизбытком контента</a></li>
+		<li class="list"><a href="#section4">Управление типом обьекта</a><ul>
+			<li class="list2">Гибридный тип</li>
+		</ul></li>
+			</ul>
+			</div>
+		</header>
+		<main class="main">
+			<div>
+				<h2 id="section">Отступы</h2>
+				<h2>Внутрение отступы тега padding.
+				</h2>
+				<p class="paragraph">Расстояние от границ обьекта до его содержимого. Значения задаются положительным числом и единицей измерения (px,%,em,rem)</p>
+				<div>
+					<p class="paragraph">Универсальный параметр;</p>
+					<p class="universal">padding-top: значение;</p>
+					<p class="universal">padding-right: значение;</p>
+					<p class="universal">padding-bottom: значение;</p>
+					<p class="universal">padding-left: значение;</p>
+				</div>
+				<div>
+					<p class="paragraph">Вариант 2- padding: сверху,справа,снизу,слева</p>
+					<p class="variant2">padding: 0 0 50px 0;</p>
+				</div>
+				<div>
+					<p class="paragraph">Одинаковые значения сверху/снизу, слева/справа</p>
+					<p class="same">padding: 20px 50px;</p>
+				</div>
+				<div>
+					<p class="paragraph">И еще один вариант сверху,снизу,слева/справа</p>
+					<p class="one">padding: 20px 50px 40px;</p>
+				</div>
+				<div>
+					<p class="paragraph">Все значения равны сверху/снизу слева/справа</p>
+					<p class="everyone">padding: 50px;</p>
+				</div>
+				<div>
+					<p class="paragraph">Указание в % </p>
+					<p class="percent">padding: 20%;</p>
+				</div>
+				<div>
+					<h2>Внешние отступы тега margin</h2>
+					<p class="paragraph">Расстояние от границ обьекта до других обьектов(а). Значение задаются числом и единицей измерения (px,%,em,rem). Значения могут быть отрицательными</p>
+					<p class="paragraph">Универсальный параметр;</p>
+					<p class="universal2">margin-top: значение;</p>
+					<p class="universal2">margin-right: значение;</p>
+					<p class="universal2">margin-bottom: значение;</p>
+					<p class="universal2">margin-left: значение;</p>
+				</div>
+				<div>
+					<p class="paragraph">Вариант 2- padding: сверху,справа,снизу,слева</p>
+					<p class="variantе22">margin: 0 0 50px 0;</p>
+				</div>
+				<div>
+					<p class="paragraph">Одинаковые значения сверху/снизу, слева/справа</p>
+					<p class="same2">margin: 20px 50px;</p>
+				</div>
+				<div>
+					<p class="paragraph">И еще один вариант сверху,снизу,слева/справа</p>
+					<p class="one2">margin: 20px 50px 40px;</p>
+				</div>
+				<div>
+					<p class="paragraph">Все значения равны сверху/снизу слева/справа</p>
+					<p class="everyone2">margin: 50px;</p>
+				</div>
+				<div>
+					<p class="paragraph">Указание в % </p>
+					<p class="percent2">margin: 20%;</p>
+				</div>
+				<div>
+					<p class="paragraph">Отрицательное значение</p>
+					<p class="negative">margin: 0 0 -50px 0;</p>
+				</div>
+			</div>
+			<div>
+				<h2 id="section1">Ширины и Высоты</h2>
+				<p class="paragraph">Задаются числом и единицей (px,%,em,rem)</p>
+				<div>
+					<h2>Ширина</h2>
+					<p class="paragraph">Конкретная ширина</p>
+					<p class="specifically">width: значение;</p>
+				</div>
+				<div>
+					<p class="paragraph">Не шире чем</p>
+					<p class="wider">max-width: значение;</p>
+				</div>
+				<div>
+					<p class="paragraph">Не уже чем</p>
+					<p class="longer">min-width: значение;</p>
+				</div>
+				<div>
+					<p class="paragraph">Проценты от ширины родителя</p>
+					<p class="from">width: значение;</p>
+				</div>
+				<div>
+					<h2>Высота</h2>
+					<p class="paragraph">Конкретная высота</p>
+					<p class="specifically2">height:значение;</p>
+				</div>
+				<div>
+					<h2>Ограничители высоты</h2>
+					<p class="paragraph">Не больше по высоте чем</p>
+					<p class="more">max-height: значение;</p>
+				</div>
+				<div>
+					<p class="paragraph">Не меньше по высоте чем</p>
+					<p class="less">min-height: значение;</p>
+				</div>
+			</div>
+			<div>
+				<h2 id="section2">Нюансы</h2>
+				<p class="paragraph">Использование margin для выравнивания</p>
+				<p class="alignment">.block { <br> max-width: 500px;<br>Центрирование <br> margin: 0px auto; <br> Центрирование плюс отступ <br> margin: 0px auto 20px; <br>}</p>
+			</div>
+			<div>
+				<p class="paragraph">Прибитие обьекта к правой стороне</p>
+				<p class="right">margin: 0 0 0 auto;</p>
+			</div>
+			<div>
+				<p class="paragraph">Схлопывание (наложение) margin</p>
+				<p class="overlay">.block { <br> margin: 0px 0 px 50px 0px;<br>} Этот работает потому что он больше</p>
+				<p class="overlay2">.block-2 { <br> margin: 20px 0 px 0px 0px;<br>}</p>
+			</div>
+			<div>
+				<h2 id="section3">Управление переизбытком контента</h2>
+				<p class="paragraph">Overflow</p>
+				<p class="visible">visible- Отображается все содержимое элемента, даже за пределами установленной высоты и ширины.visible- Отображается все содержимое элемента, даже за пределами установленной высоты и ширины.visible- Отображается все содержимое элемента, даже за пределами установленной высоты и ширины.visible- Отображается все содержимое элемента, даже за пределами установленной высоты и ширины.visible- Отображается все содержимое элемента, даже за пределами установленной высоты и ширины.visible- Отображается все содержимое элемента, даже за пределами установленной высоты и ширины.visible- Отображается все содержимое элемента, даже за пределами установленной высоты и ширины.visible- Отображается все содержимое элемента, даже за пределами установленной высоты и ширины.visible- Отображается все содержимое элемента, даже за пределами установленной высоты и ширины.visible- Отображается все содержимое элемента, даже за пределами установленной высоты и ширины.visible- Отображается все содержимое элемента, даже за пределами установленной высоты и ширины.visible- Отображается все содержимое элемента, даже за пределами установленной высоты и ширины.visible- Отображается все содержимое элемента, даже за пределами установленной высоты и ширины.visible- Отображается все содержимое элемента, даже за пределами установленной высоты и ширины.</p>
+				<p class="hidden">hidden-Отображается только область внутри элемента. Остальное будет скрыто.hidden-Отображается только область внутри элемента. Остальное будет скрыто.hidden-Отображается только область внутри элемента. Остальное будет скрыто.hidden-Отображается только область внутри элемента. Остальное будет скрыто.hidden-Отображается только область внутри элемента. Остальное будет скрыто.hidden-Отображается только область внутри элемента. Остальное будет скрыто.hidden-Отображается только область внутри элемента. Остальное будет скрыто.hidden-Отображается только область внутри элемента. Остальное будет скрыто.hidden-Отображается только область внутри элемента. Остальное будет скрыто.hidden-Отображается только область внутри элемента. Остальное будет скрыто.hidden-Отображается только область внутри элемента. Остальное будет скрыто.hidden-Отображается только область внутри элемента. Остальное будет скрыто.hidden-Отображается только область внутри элемента. Остальное будет скрыто.hidden-Отображается только область внутри элемента. Остальное будет скрыто.hidden-Отображается только область внутри элемента. Остальное будет скрыто.</p>
+				<p class="scroll">scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.scroll-Всегда добавляются полосы прокрутки.</p>
+				<p class="auto">auto-Полосы прокрутки добавляются только при необходимости.auto-Полосы прокрутки добавляются только при необходимости.auto-Полосы прокрутки добавляются только при необходимости.auto-Полосы прокрутки добавляются только при необходимости.auto-Полосы прокрутки добавляются только при необходимости.auto-Полосы прокрутки добавляются только при необходимости.auto-Полосы прокрутки добавляются только при необходимости.auto-Полосы прокрутки добавляются только при необходимости.auto-Полосы прокрутки добавляются только при необходимости.auto-Полосы прокрутки добавляются только при необходимости.auto-Полосы прокрутки добавляются только при необходимости.auto-Полосы прокрутки добавляются только при необходимости.auto-Полосы прокрутки добавляются только при необходимости.auto-Полосы прокрутки добавляются только при необходимости.auto-Полосы прокрутки добавляются только при необходимости.auto-Полосы прокрутки добавляются только при необходимости.auto-Полосы прокрутки добавляются только при необходимости.auto-Полосы прокрутки добавляются только при необходимости.</p>
+			</div>
+			<div>
+				<h2 id="section4">Управление типом обьекта</h2>
+				<p class="paragraph">display- Многоцелевое свойство, которое определяет, как элемент должен быть показан в документе.</p>
+				<p class="paragraph">Свойство не наследуется,</p>
+				<p class="paragraph">block- Элемент показывает как блочный. Применение этого значения для встроенных элементов, например тега (span) заставляет его вести подобно блокам происходит перенос строк в начале и в конце содержимого. </p>
+				<span class="block">.inline { <br> margin: 50px 0px 20px 0px; <br> width: 200px; <br> display: block; <br> }</span>
+				<p class="paragraph">inline- Элемент отображается как встроенный. Использование блочных тегов, таких как (div) и (p), автоматически создает перенос и показывает содержимое этих тегов с новой строки. Значение inline отменяет эту особеность, поэтому содержимое блочных элементов начинается с того места, где окончился предыдущий элемент.</p>
+				<p class="inline">.block { <br> margin: 50px 0px 0px 0px; <br> width: 200px; <br> display: inline; <br> } Обьект получился строчным на него перестали работать отступы,ширины и высоты</p>
+				<h2>Гибридный тип</h2>
+				<p class="paragraph">inline-block- Это значение генерирует блочный элемент, который обтекается другими элементами веб-страницы подобно встроенному элементу. Фактически такой элемент по своему действию похож на встраиваемые элементы (вроде тега img). При этом его внутренняя часть формируется как блочный элемент, а сам элемент- как встроенный</p>
+				<span class="inline-span">.inline-span { font-size: 20px; width: 150px; display: inline-block; }</span>
+				<span class="inline-span">.inline-span { font-size: 20px; width: 150px; display: inline-block; }</span>
+				<span class="inline-span">.inline-span { font-size: 20px; width: 150px; display: inline-block; }</span>
+				<span class="inline-span">.inline-span { font-size: 20px; width: 150px; display: inline-block; }</span>
+				<span class="inline-span">.inline-span { font-size: 20px; width: 150px; display: inline-block; }</span>
+				<span class="inline-span">.inline-span { font-size: 20px; width: 150px; display: inline-block; }</span>
+				<p class="paragraph">Убираем фантомные отступы</p>
+				<div class="ex">
+				<span class="inline-span">.inline-span { font-size: 20px; width: 150px; display: inline-block; }</span>
+				<span class="inline-span">.inline-span { font-size: 20px; width: 150px; display: inline-block; }</span>
+				<span class="inline-span">.inline-span { font-size: 20px; width: 150px; display: inline-block; }</span>
+				<span class="inline-span">.inline-span { font-size: 20px; width: 150px; display: inline-block; }</span>
+				<span class="inline-span">.inline-span { font-size: 20px; width: 150px; display: inline-block; }</span>
+				<span class="inline-span">.inline-span { font-size: 20px; width: 150px; display: inline-block; }</span>
+				</div>
+				<div>
+					<p class="none">none- Временно удаляет элемент из документа. Занимаемое им место не резервируется и веб-страница формируется так, словно элемента и не было</p>
+				</div>
+				<img class="image" src="img/bee-on-daisy.jpeg" alt="картинка">
+				<span>Я картинка блочно-строчный элемент</span>
+			</div>
+		</main>
+		<footer class="footer">
+			я футер
+		</footer>
+	</div>
+</body>
+</html>

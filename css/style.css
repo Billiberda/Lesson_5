@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css?family=Kufam:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic&display=swap");
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2") url("../fonts/CircularStd-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2") url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2") url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-BookItalic.woff2") format("woff2") url("../fonts/CircularStd-BookItalic.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2") url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper{
+overflow: hidden;
+min-height: 100%;
+}
+body {
+	font-family: "Shizuru" sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+}
+.articles {
+	font-family: "Kufam" sans-serif;
+	font-size: 100px;
+	font-style: oblique;
+	font-weight: 900;
+	max-width: 500px;
+	margin: 0px auto;
+	margin: 0px auto 20px;
+	padding: 20px 0px 20px 0px;
+	text-shadow: 10px 10px 10px #000;
+	text-decoration: underline;
+}
+h2 {
+	font-family: "Kufam" sans-serif;
+	font-size: 40px;
+	font-style: oblique;
+	font-weight: 600;
+	max-width: 500px;
+	margin: 0px auto;
+	margin: 0px auto 20px;
+	padding: 50px 0px 50px 0px;
+	text-transform: capitalize;
+}
+.list {
+	font-family: "Kufam" sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	padding: 20px 0px 20px 30px;
+}
+.list2 {
+		font-family: "Kufam" sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	padding: 20px 0px 20px 30px;
+}
+.list3 {
+		font-family: "Kufam" sans-serif;
+	font-style: italic;
+	font-weight: 400;
+	padding: 10px 10px 10px 10px;
+}
+
+.paragraph {
+font-family: "CircularStd" sans-serif;
+font-size: 20px;
+font-weight: 500;
+padding: 20px;
+}
+
+.universal {
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	background-color: blueviolet;
+}
+.variant2 {
+	padding: 0 0 50px 0;
+	background-color: cadetblue;
+}
+.same {
+	padding: 20px 50px;
+	background-color: brown;
+}
+.one {
+	padding: 20px 50px 40px;
+	background-color: darkorange;
+}
+.everyone {
+	padding: 50px;
+	background-color: darkgreen;
+}
+.percent {
+	padding: 20%;
+	background-color: goldenrod;
+}
+.universal2 {
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	background-color: blueviolet;
+}
+.variantе22 {
+	margin: 0 0 50px 0;
+	background-color: cadetblue;
+}
+.same2 {
+	margin: 20px 50px;
+	background-color: brown;
+}
+.one2 {
+	margin: 20px 50px 40px;
+	background-color: darkorange;
+}
+.everyone2 {
+	margin: 50px;
+	background-color: darkgreen;
+}
+.percent2 {
+	margin: 20%;
+	background-color: goldenrod;
+}
+.negative {
+	margin: -10px 20px 50px 10px;
+	background-color: burlywood;
+}
+.specifically {
+	width: 100px;
+	background-color: coral;
+}
+.wider {
+	max-width: 300px;
+	background-color: darkgray;
+}
+.longer {
+	min-width: 300px;
+	background-color: cadetblue;
+}
+.from {
+	width: 50%;
+	background-color: darksalmon;
+}
+.specifically2 {
+	height: 300px;
+	background-color: burlywood;
+}
+.more {
+	max-height: 300px;
+	background-color: darksalmon;
+}
+.less {
+	min-height: 300px;
+	background-color: antiquewhite;
+}
+.alignment {
+	max-width: 500px;
+	margin: 0px auto;
+	margin: 0px auto 20px;
+	background-color: cornflowerblue;
+}
+.right {
+	margin: 0px 0px 0px auto;
+	max-width: 500px;
+	background-color: darkgray;
+}
+.overlay {
+	margin: 0px 0px 50px 0px;
+	background-color: darkkhaki;
+}
+.overlay2 {
+	margin: 20px 0 px 0px 0px;
+	background-color: darksalmon;
+}
+.visible {
+	max-height: 100px;
+	background-color: cadetblue;
+	margin: 0 0 50px 0;
+}
+.hidden {
+	overflow: hidden;
+	max-height: 100px;
+	background-color: blanchedalmond;
+	margin-bottom: 50px;
+}
+.scroll {
+	overflow: scroll;
+	max-height: 100px;
+	background-color: darkgrey;
+}
+.auto {
+	overflow: auto;
+	max-height: 100px;
+	background-color: darkkhaki;
+}
+.inline {
+	margin: 50px 0px 0px 0px;
+	width: 100px;
+	display: inline;
+	background-color: darkgoldenrod;
+}
+.block {
+	margin: 50px 0px 20px 0px;
+	width: 200px;
+	display: block;
+	background-color: mediumorchid;
+}
+.inline-span {
+	font-size: 20px;
+	width: 150px;
+	display: inline-block;
+	background-color: burlywood;
+	margin: 20px 0px 20px 0px;
+}
+.ex {
+	font-size: 0;
+}
+
+.none {
+	display: none;
+}
+
+.image {
+	width: 200px;
+	margin: 0px 0px 20px 0px;
+}
+
+.link {
+	font-family: "CircularStd" sans-serif;
+	font-size: 30px;
+}
+
+.body{
+	font-family: "Lato" sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+}
+.capital {
+font-size: 50px;
+font-weight: 900;
+width: 810px;
+margin-top: 80px;
+margin-bottom: 40px;
+margin-left: 345px;
+
+}
+.keyboard {
+	margin-bottom: 60px;
+	margin-left: 345px;
+}
+.text {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 1.5;
+	width: 810px;
+	margin-bottom: 24px;
+	margin-left: 345px;
+	color: #1E212C;
+}
+.text2 {
+	line-height: 1.6;
+	color: #424551;
+	width: 810px;
+	margin-bottom: 20px;
+	margin-left: 345px;
+	padding-right: 50px;
+}
+.text3 {
+		font-weight: bold;
+	font-size: 20px;
+	line-height: 1.5;
+	width: 810px;
+	margin-bottom: 24px;
+	margin-left: 400px;
+	margin-right: 765px;
+	color: #1E212C;
+	padding-right: 80px;
+	padding-left: 0px;
+}
+.text4 {
+		line-height: 1.6;
+	color: #424551;
+	width: 810px;
+	margin-bottom: 48px;
+	margin-left: 345px;
+	padding-right: 60px;
+}
+.text5 {
+	color: #424551;
+	line-height: 1.6;
+	width: 810px;
+	margin-bottom: 24px;
+	margin-left: 345px;
+	padding-right: 40px;
+}
+.text6 {
+width: 975px;
+margin-left: 345px;
+padding-left: 30px;
+	color: #424551;
+	margin-bottom: 15px;
+}
+.text7 {
+width: 975px;
+margin-bottom: 15px;
+padding-left: 30px;
+margin-left: 345px;
+	color: #424551;
+}
+.text8 {
+width: 975px;
+margin-bottom: 15px;
+padding-left: 30px;
+margin-left: 345px;
+	color: #424551;
+}
+.text9 {
+	padding-left: 30px;
+	color: #424551;
+	margin-left: 345px;
+width: 975px;
+margin-bottom: 24px;
+}
+.text10 {
+	color: #424551;
+	line-height: 1.6;
+	width: 810px;
+	margin-bottom: 60px;
+	margin-left: 345px;
+	padding-right: 40px;
+}
